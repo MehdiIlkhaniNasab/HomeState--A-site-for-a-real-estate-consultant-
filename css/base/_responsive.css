@@ -26,13 +26,13 @@
     .header-content{
         height: 100%;
         display: grid;
-        grid-template-columns: minmax(35rem ,45rem);
+        grid-template-columns: minmax(40rem ,50rem);
         justify-content: center;
     }
 
     .properties{
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(28rem, 30rem));
+        grid-template-columns: repeat(auto-fit, minmax(35rem, 40rem));
         justify-content: center;
     }
 

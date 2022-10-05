@@ -6,6 +6,7 @@
 .features-wrapper{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem , 35rem));
+    justify-content: center;
     gap: 4rem;
 }
 
