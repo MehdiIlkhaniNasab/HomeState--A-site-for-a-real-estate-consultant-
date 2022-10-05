@@ -22,12 +22,18 @@
     .header-content{
         height: 100%;
         display: grid;
-        grid-template-columns: minmax(40rem ,50rem);
+        grid-template-columns: minmax(35rem ,45rem);
+        justify-content: center;
+    }
+
+    .properties{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(28rem, 30rem));
         justify-content: center;
     }
 
     .clients{
-        grid-template-columns: repeat(auto-fit, minmax(40rem, 50rem));
+        grid-template-columns: repeat(auto-fit, minmax(35rem, 40rem));
     }
 
   
