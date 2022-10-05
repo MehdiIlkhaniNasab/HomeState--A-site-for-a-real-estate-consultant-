@@ -1,0 +1,46 @@
+@media only screen and (max-width: 75em) {}
+
+@media only screen and (max-width: 62em) {
+    .clients{
+        grid-template-columns: repeat(auto-fit, minmax(30rem, 40rem));
+        gap: 6rem;
+    }
+}
+
+@media only screen and (max-width: 48em) {
+    .u-container{
+        width: 90%;
+    }
+    .menu{
+        display: block;
+    }
+
+    .navbar-list{
+        display: none;
+    }
+
+    .header-content{
+        height: 100%;
+        display: grid;
+        grid-template-columns: minmax(40rem ,50rem);
+        justify-content: center;
+    }
+
+    .clients{
+        grid-template-columns: repeat(auto-fit, minmax(40rem, 50rem));
+    }
+
+  
+
+    .contact{
+        grid-template-columns: minmax(min-content, 1fr);
+    }
+
+    .contact-left{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 36em) {
+
+}

@@ -1,0 +1,14 @@
+.btn{
+    padding: 1rem 3rem;
+    display: grid;
+    place-items: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.btn-green{
+    background-color: var(--bs-green);
+    color: var(--bs-white);
+}

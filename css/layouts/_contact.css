@@ -1,0 +1,36 @@
+.contact{
+    display: grid;
+    grid-template-columns: 50% 1fr;
+    align-items: center;
+    padding: 10rem 0;
+
+}
+
+.contact-left img{
+    display: block;
+    width: 100%;
+    height: 80rem;
+    
+}
+
+.contact-right{
+    background-color: var(--bs-white);
+    height: 80rem;
+}
+
+.form-contact-form{
+    display: grid;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.form-contact-form input, textarea{
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: 2px solid var(--bs-gray-low);
+}
+
+.form-contact-form input:focus, textarea:focus{
+
+    border-bottom: 2px solid var(--bs-green);
+}

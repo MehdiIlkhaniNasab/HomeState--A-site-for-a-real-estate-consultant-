@@ -1,0 +1,46 @@
+.agent-wrapper{
+    background-color: var(--bs-green);
+    color: var(--bs-white);
+    padding-bottom: 6rem;
+}
+
+.agent-wrapper .description-titel{
+    color: var(--bs-white);
+}
+
+.agent-wrapper .description-text{
+    color: var(--bs-half-white);
+}
+
+.agents {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 25rem));
+    justify-content: center;
+    gap: 2rem;
+}
+
+.agent {
+    display: grid;
+    gap: 2rem;
+    text-align: center;
+    line-height: 2.5rem;
+}
+
+.agent img{
+    width: 100%;
+    height: 25rem;
+    border-radius: 50%;
+}
+
+.social-media{
+    display: grid;
+    grid-template-columns: repeat(4, max-content);
+    gap: 2rem;
+    justify-content: center;
+}
+
+.social-media .icon{
+    width: 2rem;
+    height: 2rem;
+    fill: var(--bs-white);
+}

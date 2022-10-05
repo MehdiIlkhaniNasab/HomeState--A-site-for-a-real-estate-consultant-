@@ -1,0 +1,36 @@
+.features{
+    background-color: var(--bs-white);
+    padding: 6rem 0;
+}
+
+.features-wrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem , 35rem));
+    gap: 4rem;
+}
+
+.feature{
+    display: grid;
+    grid-template-columns: 6rem minmax(25rem, 35rem);
+    grid-template-rows:  repeat(2,max-content);
+    align-items: start;
+    gap: 1rem;
+}
+
+.feature-text{
+    color: var(--bs-gray);
+    line-height: 2.5rem;
+}
+
+.feature-link{
+    text-decoration: none;
+    color: var(--bs-green);
+    font-size: 1.8rem;
+}
+
+.feature .icon{
+    grid-row: 1 / span2;
+    width: 5rem;
+    height: 4rem;
+    fill: #dfdfdf;
+}

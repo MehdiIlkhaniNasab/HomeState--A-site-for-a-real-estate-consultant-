@@ -1,0 +1,73 @@
+.client-wrapper{
+    background-image: url(../../images/property-6.jpg);
+    background-size: cover;
+    padding: 5rem;
+}
+
+.client-wrapper .description-titel{
+    color: var(--bs-white);
+}
+
+.clients{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 33rem));
+    justify-content: center;
+    gap: 2rem;
+}
+
+.client{
+    position: relative;
+}
+
+.client-text{
+    background-color: var(--bs-white);
+    color: var(--bs-black);
+    padding: 3rem;
+    text-align: justify;
+    border-radius: 5px;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.486);
+    line-height: 2.5rem;
+    position: relative;
+}
+
+.client-text::after{
+    content: '';
+    width: 5rem;
+    height: 3rem;
+    background-color: var(--bs-white);
+    position: absolute;
+    bottom: -2rem;
+    right: 2rem;
+    clip-path: polygon(0 0, 100% 0, 50% 100%, 50% 100% );
+}
+
+.client-author{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: var(--bs-white);
+}
+
+.client-job{
+    color: var(--bs-half-white);
+}
+
+.client-icon{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    background-color: var(--bs-green);
+    position: absolute;
+    top: -4rem;
+    right: 1rem;
+    z-index: 5;
+}
+
+.client-icon .icon{
+    width: 3rem;
+    height: 3rem;
+    fill: var(--bs-white);
+}
